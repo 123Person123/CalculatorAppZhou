@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/b6"
         android:layout_width="58dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/md_theme_dark_scrim"
@@ -26,7 +26,7 @@
         app:layout_constraintVertical_bias="0.721" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/b2"
         android:layout_width="58dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/md_theme_dark_scrim"
@@ -44,7 +44,7 @@
         app:layout_constraintVertical_bias="0.84" />
 
     <Button
-        android:id="@+id/button16"
+        android:id="@+id/bequals"
         android:layout_width="157dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/md_theme_dark_onPrimaryContainer"
@@ -63,7 +63,7 @@
         app:layout_constraintVertical_bias="0.964" />
 
     <Button
-        android:id="@+id/button13"
+        android:id="@+id/bplus"
         android:layout_width="58dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/md_theme_dark_onPrimaryContainer"
@@ -82,7 +82,7 @@
         app:layout_constraintVertical_bias="0.6" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/b8"
         android:layout_width="58dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/md_theme_dark_scrim"
@@ -100,7 +100,7 @@
         app:layout_constraintVertical_bias="0.6" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/b7"
         android:layout_width="58dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/md_theme_dark_scrim"
@@ -118,7 +118,7 @@
         app:layout_constraintVertical_bias="0.6" />
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/b9"
         android:layout_width="58dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/md_theme_dark_scrim"
@@ -136,7 +136,7 @@
         app:layout_constraintVertical_bias="0.6" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/b0"
         android:layout_width="58dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/md_theme_dark_scrim"
@@ -154,7 +154,7 @@
         app:layout_constraintVertical_bias="0.964" />
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/b3"
         android:layout_width="58dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/md_theme_dark_scrim"
@@ -172,7 +172,7 @@
         app:layout_constraintVertical_bias="0.84" />
 
     <Button
-        android:id="@+id/button15"
+        android:id="@+id/bmultiply"
         android:layout_width="58dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/md_theme_dark_onPrimaryContainer"
@@ -191,7 +191,7 @@
         app:layout_constraintVertical_bias="0.84" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/bdivide"
         android:layout_width="58dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/md_theme_dark_onPrimaryContainer"
@@ -210,7 +210,7 @@
         app:layout_constraintVertical_bias="0.964" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/b1"
         android:layout_width="58dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/md_theme_dark_scrim"
@@ -228,7 +228,7 @@
         app:layout_constraintVertical_bias="0.84" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/b5"
         android:layout_width="58dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/md_theme_dark_scrim"
@@ -246,7 +246,7 @@
         app:layout_constraintVertical_bias="0.721" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/bclear"
         android:layout_width="58dp"
         android:layout_height="60dp"
         android:backgroundTint="@android:color/holo_orange_dark"
@@ -264,7 +264,7 @@
         app:layout_constraintVertical_bias="0.478" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/b4"
         android:layout_width="58dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/md_theme_dark_scrim"
@@ -282,7 +282,7 @@
         app:layout_constraintVertical_bias="0.721" />
 
     <Button
-        android:id="@+id/button14"
+        android:id="@+id/bminus"
         android:layout_width="58dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/md_theme_dark_onPrimaryContainer"
@@ -321,7 +321,8 @@
         android:background="@color/md_theme_dark_onSurfaceVariant"
         android:foregroundTint="@color/md_theme_dark_onPrimaryContainer"
         android:text="TextView"
-        android:textAlignment="viewEnd"
+        android:paddingTop="150dp"
+        android:paddingLeft="250dp"
         android:textColor="@color/md_theme_dark_scrim"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
