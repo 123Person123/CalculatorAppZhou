@@ -15,240 +15,273 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    String numInput = "";
 
+    double saved = 0;
+    double expression;
+    String operation = "";
+    String savedOperation = "";
     //Put this in other functions
-    TextView display = findViewById(R.id.textView3);
-    String displayInput = display.getText().toString();
+//    TextView display = findViewById(R.id.textView3);
+//    String displayInput = display.getText().toString();
 
-    String displayedInput = "0";
-
-    String old = displayedInput.substring(displayedInput.length()-2,displayedInput.length()-1);
-    String curr = displayedInput.substring(displayedInput.length()-1);
+//    String old = displayedInput.substring(displayedInput.length()-2,displayedInput.length()-1);
+//    String curr = displayedInput.substring(displayedInput.length()-1);
 
     public void numSelected(View v){
-        if(v.getId() == R.id.b0){
-            if(!displayedInput.equals("0")){
-                numInput += "0";
-                displayedInput += "0";
-            }
-//            if(old.equals("*")||old.equals("/")||old.equals("+")||old.equals("-")){
-//
-//            }
-        }
-
-        if(v.getId() == R.id.b1){
-            if(displayedInput.equals("0")){
-                numInput = "1";
-                displayedInput = "1";
+        if(v.getId() == R.id.b_0){
+            TextView display = findViewById(R.id.display_box);
+            String displayInput = display.getText().toString();
+            if(!savedOperation.equals("")){
+                display.setText("0");
+                savedOperation = "";
             }
             else{
-                numInput += "1";
-                displayedInput += "1";
+                if(displayInput.equals("0")){
+                    display.setText("0");
+                }
+                else{
+                    String newText = displayInput.concat("0");
+                    display.setText(newText);
+                }
             }
         }
 
-        if(v.getId() == R.id.b2){
-            if(displayedInput.equals("0")){
-                numInput = "2";
-                displayedInput = "2";
+        if(v.getId() == R.id.b_1){
+            TextView display = findViewById(R.id.display_box);
+            String displayInput = display.getText().toString();
+            if(!savedOperation.equals("")){
+                display.setText("1");
+                savedOperation = "";
             }
             else{
-                numInput += "2";
-                displayedInput += "2";
+                if(displayInput.equals("0")){
+                    display.setText("1");
+                }
+                else{
+                    String newText = displayInput.concat("1");
+                    display.setText(newText);
+                }
             }
         }
 
-        if(v.getId() == R.id.b3){
-            if(displayedInput.equals("0")){
-                numInput = "3";
-                displayedInput = "3";
+        if(v.getId() == R.id.b_2){
+            TextView display = findViewById(R.id.display_box);
+            String displayInput = display.getText().toString();
+            if(!savedOperation.equals("")){
+                display.setText("2");
+                savedOperation = "";
             }
             else{
-                numInput += "3";
-                displayedInput += "3";
+                if(displayInput.equals("0")){
+                    display.setText("2");
+                }
+                else{
+                    String newText = displayInput.concat("2");
+                    display.setText(newText);
+                }
             }
         }
 
-        if(v.getId() == R.id.b4){
-            if(displayedInput.equals("0")){
-                numInput = "4";
-                displayedInput = "4";
+        if(v.getId() == R.id.b_3){
+            TextView display = findViewById(R.id.display_box);
+            String displayInput = display.getText().toString();
+            if(!savedOperation.equals("")){
+                display.setText("3");
+                savedOperation = "";
             }
             else{
-                numInput += "4";
-                displayedInput += "4";
+                if(displayInput.equals("0")){
+                    display.setText("3");
+                }
+                else{
+                    String newText = displayInput.concat("3");
+                    display.setText(newText);
+                }
             }
         }
 
-        if(v.getId() == R.id.b5){
-            if(displayedInput.equals("0")){
-                numInput = "5";
-                displayedInput = "5";
+        if(v.getId() == R.id.b_4){
+            TextView display = findViewById(R.id.display_box);
+            String displayInput = display.getText().toString();
+            if(!savedOperation.equals("")){
+                display.setText("4");
+                savedOperation = "";
             }
             else{
-                numInput += "5";
-                displayedInput += "5";
+                if(displayInput.equals("0")){
+                    display.setText("4");
+                }
+                else{
+                    String newText = displayInput.concat("4");
+                    display.setText(newText);
+                }
             }
         }
 
-        if(v.getId() == R.id.b6){
-            if(displayedInput.equals("0")){
-                numInput = "6";
-                displayedInput = "6";
+        if(v.getId() == R.id.b_5){
+            TextView display = findViewById(R.id.display_box);
+            String displayInput = display.getText().toString();
+            if(!savedOperation.equals("")){
+                display.setText("5");
+                savedOperation = "";
             }
             else{
-                numInput += "6";
-                displayedInput += "6";
+                if(displayInput.equals("0")){
+                    display.setText("5");
+                }
+                else{
+                    String newText = displayInput.concat("5");
+                    display.setText(newText);
+                }
             }
         }
 
-        if(v.getId() == R.id.b7){
-            if(displayedInput.equals("0")){
-                numInput = "7";
-                displayedInput = "7";
+        if(v.getId() == R.id.b_6){
+            TextView display = findViewById(R.id.display_box);
+            String displayInput = display.getText().toString();
+            if(!savedOperation.equals("")){
+                display.setText("6");
+                savedOperation = "";
             }
             else{
-                numInput += "7";
-                displayedInput += "7";
+                if(displayInput.equals("0")){
+                    display.setText("6");
+                }
+                else{
+                    String newText = displayInput.concat("6");
+                    display.setText(newText);
+                }
             }
         }
 
-        if(v.getId() == R.id.b8){
-            if(displayedInput.equals("0")){
-                numInput = "8";
-                displayedInput = "8";
+        if(v.getId() == R.id.b_7){
+            TextView display = findViewById(R.id.display_box);
+            String displayInput = display.getText().toString();
+            if(!savedOperation.equals("")){
+                display.setText("7");
+                savedOperation = "";
             }
             else{
-                numInput += "8";
-                displayedInput += "8";
+                if(displayInput.equals("0")){
+                    display.setText("7");
+                }
+                else{
+                    String newText = displayInput.concat("7");
+                    display.setText(newText);
+                }
             }
         }
 
-        if(v.getId() == R.id.b5){
-            if(displayedInput.equals("0")){
-                numInput = "9";
-                displayedInput = "9";
+        if(v.getId() == R.id.b_8){
+            TextView display = findViewById(R.id.display_box);
+            String displayInput = display.getText().toString();
+            if(!savedOperation.equals("")){
+                display.setText("8");
+                savedOperation = "";
             }
             else{
-                numInput += "9";
-                displayedInput += "9";
+                if(displayInput.equals("0")){
+                    display.setText("8");
+                }
+                else{
+                    String newText = displayInput.concat("8");
+                    display.setText(newText);
+                }
             }
         }
+
+        if(v.getId() == R.id.b_9){
+            TextView display = findViewById(R.id.display_box);
+            String displayInput = display.getText().toString();
+            if(!savedOperation.equals("")){
+                display.setText("9");
+                savedOperation = "";
+            }
+            else{
+                if(displayInput.equals("0")){
+                    display.setText("9");
+                }
+                else{
+                    String newText = displayInput.concat("9");
+                    display.setText(newText);
+                }
+            }
+
+        }
+
+
     }
 
 
 
     public void operations(View v){
-        if(v.getId() == R.id.b0){
-            if(!displayedInput.equals("0")){
-                numInput += "0";
-                displayedInput += "0";
-            }
-//            if(old.equals("*")||old.equals("/")||old.equals("+")||old.equals("-")){
-//
-//            }
+        if(v.getId() == R.id.b_plus){
+            TextView display = findViewById(R.id.display_box);
+            String current = display.getText().toString();
+            saved = Double.parseDouble(current);
+            operation = "Add";
+            savedOperation = "Add";
+        }
+        if(v.getId() == R.id.b_minus){
+            TextView display = findViewById(R.id.display_box);
+            String current = display.getText().toString();
+            saved = Double.parseDouble(current);
+            operation = "Subtract";
+            savedOperation = "Subtract";
+        }
+        if(v.getId() == R.id.b_multiply){
+            TextView display = findViewById(R.id.display_box);
+            String current = display.getText().toString();
+            saved = Double.parseDouble(current);
+            operation = "Multiply";
+            savedOperation = "Multiply";
+        }
+        if(v.getId() == R.id.b_divide){
+            TextView display = findViewById(R.id.display_box);
+            String current = display.getText().toString();
+            saved = Double.parseDouble(current);
+            operation = "Divide";
+            savedOperation = "Divide";
         }
 
-        if(v.getId() == R.id.b1){
-            if(displayedInput.equals("0")){
-                numInput = "1";
-                displayedInput = "1";
-            }
-            else{
-                numInput += "1";
-                displayedInput += "1";
-            }
-        }
+    }
 
-        if(v.getId() == R.id.b2){
-            if(displayedInput.equals("0")){
-                numInput = "2";
-                displayedInput = "2";
+    public void calculate(View v){
+        if(v.getId() == R.id.b_equals){
+            TextView display = findViewById(R.id.display_box);
+            String current = display.getText().toString();
+            Double currentValue = Double.parseDouble(current);
+            if(operation.equals("Add")){
+                double result = saved + currentValue;
+                display.setText(String.valueOf(result));
             }
-            else{
-                numInput += "2";
-                displayedInput += "2";
+            else if(operation.equals("Subtract")){
+                double result = saved - currentValue;
+                display.setText(String.valueOf(result));
             }
-        }
-
-        if(v.getId() == R.id.b3){
-            if(displayedInput.equals("0")){
-                numInput = "3";
-                displayedInput = "3";
+            else if(operation.equals("Multiply")){
+                double result = saved * currentValue;
+                display.setText(String.valueOf(result));
             }
-            else{
-                numInput += "3";
-                displayedInput += "3";
+            else if(operation.equals("Divide")){
+                double result = saved / currentValue;
+                display.setText(String.valueOf(result));
             }
-        }
-
-        if(v.getId() == R.id.b4){
-            if(displayedInput.equals("0")){
-                numInput = "4";
-                displayedInput = "4";
-            }
-            else{
-                numInput += "4";
-                displayedInput += "4";
-            }
-        }
-
-        if(v.getId() == R.id.b5){
-            if(displayedInput.equals("0")){
-                numInput = "5";
-                displayedInput = "5";
-            }
-            else{
-                numInput += "5";
-                displayedInput += "5";
-            }
-        }
-
-        if(v.getId() == R.id.b6){
-            if(displayedInput.equals("0")){
-                numInput = "6";
-                displayedInput = "6";
-            }
-            else{
-                numInput += "6";
-                displayedInput += "6";
-            }
-        }
-
-        if(v.getId() == R.id.b7){
-            if(displayedInput.equals("0")){
-                numInput = "7";
-                displayedInput = "7";
-            }
-            else{
-                numInput += "7";
-                displayedInput += "7";
-            }
-        }
-
-        if(v.getId() == R.id.b8){
-            if(displayedInput.equals("0")){
-                numInput = "8";
-                displayedInput = "8";
-            }
-            else{
-                numInput += "8";
-                displayedInput += "8";
-            }
-        }
-
-        if(v.getId() == R.id.b5){
-            if(displayedInput.equals("0")){
-                numInput = "9";
-                displayedInput = "9";
-            }
-            else{
-                numInput += "9";
-                displayedInput += "9";
-            }
+            operation = "";
+            savedOperation = "";
         }
     }
+
+    public void clear(View v){
+        if(v.getId() == R.id.b_clear){
+            TextView display = findViewById(R.id.display_box);
+            display.setText("0");
+            saved = 0;
+            operation = "";
+            savedOperation = "";
+        }
+    }
+
 
 
 
