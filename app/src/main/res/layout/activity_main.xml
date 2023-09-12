@@ -9,7 +9,7 @@
 
     <Button
         android:id="@+id/b_6"
-        android:layout_width="58dp"
+        android:layout_width="60dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/md_theme_dark_scrim"
         android:onClick="numSelected"
@@ -28,7 +28,7 @@
 
     <Button
         android:id="@+id/b_2"
-        android:layout_width="58dp"
+        android:layout_width="60dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/md_theme_dark_scrim"
         android:onClick="numSelected"
@@ -47,7 +47,7 @@
 
     <Button
         android:id="@+id/b_equals"
-        android:layout_width="153dp"
+        android:layout_width="156dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/md_theme_dark_onPrimaryContainer"
         android:onClick="calculate"
@@ -67,7 +67,7 @@
 
     <Button
         android:id="@+id/b_plus"
-        android:layout_width="58dp"
+        android:layout_width="60dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/md_theme_dark_onPrimaryContainer"
         android:onClick="operations"
@@ -87,7 +87,7 @@
 
     <Button
         android:id="@+id/b_8"
-        android:layout_width="58dp"
+        android:layout_width="60dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/md_theme_dark_scrim"
         android:onClick="numSelected"
@@ -106,7 +106,7 @@
 
     <Button
         android:id="@+id/b_7"
-        android:layout_width="58dp"
+        android:layout_width="60dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/md_theme_dark_scrim"
         android:onClick="numSelected"
@@ -125,7 +125,7 @@
 
     <Button
         android:id="@+id/b_9"
-        android:layout_width="58dp"
+        android:layout_width="60dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/md_theme_dark_scrim"
         android:onClick="numSelected"
@@ -144,7 +144,7 @@
 
     <Button
         android:id="@+id/b_0"
-        android:layout_width="58dp"
+        android:layout_width="60dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/md_theme_dark_scrim"
         android:onClick="numSelected"
@@ -163,7 +163,7 @@
 
     <Button
         android:id="@+id/b_3"
-        android:layout_width="58dp"
+        android:layout_width="60dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/md_theme_dark_scrim"
         android:onClick="numSelected"
@@ -182,7 +182,7 @@
 
     <Button
         android:id="@+id/b_multiply"
-        android:layout_width="58dp"
+        android:layout_width="60dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/md_theme_dark_onPrimaryContainer"
         android:onClick="operations"
@@ -202,7 +202,7 @@
 
     <Button
         android:id="@+id/b_divide"
-        android:layout_width="58dp"
+        android:layout_width="60dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/md_theme_dark_onPrimaryContainer"
         android:onClick="operations"
@@ -222,7 +222,7 @@
 
     <Button
         android:id="@+id/b_1"
-        android:layout_width="58dp"
+        android:layout_width="60dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/md_theme_dark_scrim"
         android:onClick="numSelected"
@@ -241,7 +241,7 @@
 
     <Button
         android:id="@+id/b_5"
-        android:layout_width="58dp"
+        android:layout_width="60dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/md_theme_dark_scrim"
         android:onClick="numSelected"
@@ -260,7 +260,7 @@
 
     <Button
         android:id="@+id/b_clear"
-        android:layout_width="58dp"
+        android:layout_width="60dp"
         android:layout_height="60dp"
         android:backgroundTint="@android:color/holo_orange_dark"
         android:onClick="clear"
@@ -279,7 +279,7 @@
 
     <Button
         android:id="@+id/b_4"
-        android:layout_width="58dp"
+        android:layout_width="60dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/md_theme_dark_scrim"
         android:onClick="numSelected"
@@ -298,7 +298,7 @@
 
     <Button
         android:id="@+id/b_minus"
-        android:layout_width="58dp"
+        android:layout_width="60dp"
         android:layout_height="60dp"
         android:backgroundTint="@color/md_theme_dark_onPrimaryContainer"
         android:onClick="operations"

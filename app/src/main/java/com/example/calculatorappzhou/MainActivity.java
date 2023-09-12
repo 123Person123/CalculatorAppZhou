@@ -17,15 +17,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     double saved = 0;
-    double expression;
     String operation = "";
     String savedOperation = "";
-    //Put this in other functions
-//    TextView display = findViewById(R.id.textView3);
-//    String displayInput = display.getText().toString();
-
-//    String old = displayedInput.substring(displayedInput.length()-2,displayedInput.length()-1);
-//    String curr = displayedInput.substring(displayedInput.length()-1);
 
     public void numSelected(View v){
         if(v.getId() == R.id.b_0){
