@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CalculatorAppZhou</string>
+    <string name="app_name">Calculator App By Jason Zhou</string>
     <string name="title">Basic Calculator</string>
     <string name="clearButton">CE</string>
     <string name="defaultValue">0</string>
